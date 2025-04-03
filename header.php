@@ -30,6 +30,11 @@
                     <a class="nav-link" href="grades.php">ĐIỂM</a>
                 </li>
             </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="btn btn-primary nav-link" href="login.php">Login</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>

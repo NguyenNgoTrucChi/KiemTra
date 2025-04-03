@@ -29,7 +29,7 @@ if (!empty($_SESSION['cart'])) {
 
 // Xử lý đăng ký chính thức
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
-    $student_id = "0123456789"; // Giả định mã sinh viên, thay thế bằng session đăng nhập thực tế
+    $student_id = "0123456789";
 
     // Tạo đăng ký mới
     $sql = "INSERT INTO DangKy (MaSV, NgayDK) VALUES (:student_id, CURDATE())";
